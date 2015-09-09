@@ -1,0 +1,102 @@
+#container {
+  background-color: black;
+  background-image: url("images/background.png");
+  font-family: 'Lato';
+  color: white;
+}
+
+#header {
+  margin: right;
+  text-align: right;
+}
+
+#navbar {
+  margin: auto;
+  text-align: center;
+}
+
+#content {
+  margin: auto;
+  width: 60%;
+}
+
+#about {
+  background-color: black;
+  border-radius: 10;
+  background: rgba(0, 0, 0, .5);
+  padding: 15px;
+}
+
+#photo {
+  background-color: black;
+  border-radius: 10;
+  background: rgba(0, 0, 0, .5);
+  padding: 15px;
+}
+
+#design {
+  background-color: black;
+  border-radius: 10;
+  background: rgba(0, 0, 0, .5);
+  padding: 15px;
+}
+
+#video {
+  background-color: black;
+  border-radius: 10;
+  background: rgba(0, 0, 0, .5);
+  padding: 15px;
+}
+
+#vgallery {
+  margin: auto;
+  text-align: center;
+}
+
+#consult {
+  background-color: black;
+  border-radius: 10;
+  background: rgba(0, 0, 0, .5);
+  padding: 15px;
+}
+
+#contact {
+  background-color: black;
+  border-radius: 10;
+  background: rgba(0, 0, 0, .5);
+  padding: 15px;
+}
+
+#footer {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  /*border-radius: 10px;
+  border: 1px solid white;*/
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+img {
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+

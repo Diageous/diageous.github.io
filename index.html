@@ -1,0 +1,276 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="path/to/photoswipe.css"> 
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+    In the folder of skin CSS file there are also:
+    - .png and .svg icons sprite, 
+    - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="path/to/default-skin/default-skin.css"> 
+
+    <!-- Core JS file -->
+    <script src="path/to/photoswipe.min.js"></script> 
+
+    <!-- UI JS file -->
+    <script src="path/to/photoswipe-ui-default.min.js"></script> 
+    <script src="gallery.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <a href="index.html">
+          <img src="images/apsismediabanner.png" alt="Apsis Media"> 
+        </a>
+      </div>
+      <br />
+      <div id="navbar">
+        <a href="#about"> 
+          <img src="images/about.png" alt="About"> 
+        </a>
+        <a href="#photo">
+          <img src="images/photo.png" alt="Photo"> 
+        </a>
+        <a href="#design">
+          <img src="images/design.png" alt="Design"> 
+        </a>
+        <a href="#video"> 
+          <img src="images/video.png" alt="Video"> 
+        </a>
+        <a href="#consult"> 
+          <img src="images/consult.png" alt="Consult"> 
+        </a>
+        <a href="#contact"> 
+          <img src="images/contact.png" alt="Contact"> 
+        </a>
+        <!--<a href="#blog">-->
+          <img src="images/blog.png" alt="Blog"> 
+        <!--</a>-->
+      </div>
+      <br />
+      <br />
+      <div id="content">
+        <div id="about">
+          <h1> About </h1>
+          <br />
+          Apsis Media is based out of Green Bay, Wisconsin, and is dedicated to
+          serving our clients and partners with dignity and excellence. We  
+          specialize in graphic design, videography, photography, and promotional
+          pieces. We are a strong option for budget-wise bands, churches, and anyone
+          looking for great work with an affordable price!
+          <br />
+          <br />
+          We are focused on developing and maintaining relationships with clients. 
+          We work alongside you to create for your vision, at the same handling all 
+          the technical components so you don't have to!
+          <br />
+          <br />
+          <video width="320" height="240" controls>
+            <source src="https://youtu.be/lopHrGpNTtw" type="video/mp4">
+            Welcome video!
+          </video>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div id="photo">
+          <h1> Photo Gallery </h1>
+          <br />
+          Photo shoots are charged per-hour. This price also includes touch-up done afterwards
+          to make your ocassion look truly splendid!
+          <br />
+          One hour or less: $15 <br />
+          Two to four hours: $20 per hour <br />
+          Full-day: $30 per hour <br />
+          *We require 25% paid upfront for full-day events due to scheduling
+          <br />
+          <br />
+          <div class="picture" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="images/13.png" itemprop="contentUrl" data-size="1000x667" data-index="0">
+                <img src="images/13-thumb.png" height="133" width="200" itemprop="thumbnail" alt="">
+              </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="images/14.png" itemprop="contentUrl" data-size="1000x667" data-index="1">
+                <img src="images/14-thumb.png" height="133" width="200" itemprop="thumbnail" alt="">
+              </a>
+            </figure>
+          </div>
+          <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="pswp__bg"></div>
+              <div class="pswp__scroll-wrap">
+ 
+                <div class="pswp__container">
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+                </div>
+ 
+                <div class="pswp__ui pswp__ui--hidden">
+                  <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div> 
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div id="design">
+          <h1> Design Gallery </h1>
+          <br />
+          Designs will vary in price depending on the project. <br />
+          Shirt designs begin at $50. <br />
+          Album art, photo-advertisements, and web layout features begin at $30. <br />
+          Full websites begin at $400 and include full layout. <br />
+          <br />
+          <br />
+          <div class="picture" itemscope itemtype="http://schema.org/ImageGallery">
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="images/lowerstilllogo.png" itemprop="contentUrl" data-size="285x294" data-index="0">
+                <img src="images/ls-thumb.png" height="103" width="100" itemprop="thumbnail" alt="Beach">
+              </a>
+            </figure>
+            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+              <a href="images/strategicpawn.png" itemprop="contentUrl" data-size="775x775" data-index="1">
+                <img src="images/pawn-thumb.png" height="200" width="200" itemprop="thumbnail" alt="">
+              </a>
+            </figure>
+          </div>
+          <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="pswp__bg"></div>
+              <div class="pswp__scroll-wrap">
+ 
+                <div class="pswp__container">
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+                </div>
+ 
+                <div class="pswp__ui pswp__ui--hidden">
+                  <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div> 
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div id="video">
+          <h1> Videos </h1>
+          <br />
+          Video rates vary per project. Live raw video from your event starts at $50.
+          <br /> 
+          Video promotions, music videos, and similar pieces start at $300.
+          <br />
+          <br />
+          <div id="vgallery">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/lopHrGpNTtw" frameborder="0" allowfullscreen></iframe>
+            <br />
+            <br />   
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z1J33lX4yr0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div id="consult">
+          <h1> Consultation </h1>
+          <br />
+          We offer marketing and social media consultations. We will work with you to choose 
+          the best platforms and strategies according to your values and your target audience.
+          You will be provided with a plan to strengthen weak areas and further utilize your strengths.
+          Visual material will be provided for social media posts and advertisements, as well!
+          <br />
+          <br />
+          Please fill out this brief survey with information on your organization or project and we will
+          get back to you soon!
+          <br />
+          <br />
+          <a href="https://docs.google.com/forms/d/12ZKMuKjh5eJOn7q2XpJAc6cnamqW1PO6qebP2LKxos0/viewform?usp=send_form">
+            <img src="images/survey.png">
+          </a>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div id="contact">
+          <h1> Contact </h1>
+          If our services fit your needs, please contact casey@apsis.media!
+        </div>
+      </div>
+      <br />
+      <br />
+      <div id="footer">
+        <a href="https://www.facebook.com/pages/Apsis-Media/841494682587316">
+          <img src="images/facebook.png" alt="Facebook">
+        </a>
+        &nbsp; &nbsp;
+        <a href="https://twitter.com/apsismedia">      
+          <img src="images/twitter.png" alt="Twitter">
+        </a>
+        &nbsp; &nbsp;
+        <a href="https://www.pinterest.com/apsismedia/">      
+          <img src="images/pinterest.png" alt="Pinterest">
+        </a>
+        &nbsp; &nbsp;
+        <a href="https://www.youtube.com/channel/UCE98DCw7YvTorQ8xtKWBmHw">
+          <img src="images/youtube.png">
+        </a>
+        <br />
+        <br />
+        Apsis Media 2015 &copy;
+        <br />
+      </div>
+    </div>
+  </body>
+</html>
