@@ -269,9 +269,9 @@ if ($action=="")    /* display the contact form */
     <form  action="" method="POST" enctype="multipart/form-data">
     <input type="hidden" name="action" value="submit">
     Your name:<br><br>
-    <input name="name" type="text" value="" size="60"/><br>
+    <input name="name" type="text" value="" size="60"/><br><br>
     Your email:<br><br>
-    <input name="email" type="text" value="" size="60"/><br>
+    <input name="email" type="text" value="" size="60"/><br><br>
     Your message:<br><br>
     <textarea name="message" rows="7" cols="60"></textarea><br><br>
     <input type="submit" value="Send email"/>
@@ -285,7 +285,7 @@ else                /* send the submitted data */
     $message=$_REQUEST['message'];
     if (($name=="")||($email=="")||($message==""))
         {
-        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+        echo "All fields are required, please fill the form again.";
         }
     else{        
         $from="From: $name<$email>\r\nReturn-path: $email";
