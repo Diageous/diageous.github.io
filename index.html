@@ -260,7 +260,7 @@
         <br />
         <div id="contact">
           <h1> Contact </h1>
-          If our services fit your needs, please contact casey@apsis.media!
+          <br />
 <?php
 $action=$_REQUEST['action'];
 if ($action=="")    /* display the contact form */
@@ -273,7 +273,7 @@ if ($action=="")    /* display the contact form */
     Your email:<br>
     <input name="email" type="text" value="" size="30"/><br>
     Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br>
+    <textarea name="message" rows="7" cols="30"></textarea><br><br>
     <input type="submit" value="Send email"/>
     </form>
     <?php
@@ -295,7 +295,6 @@ else                /* send the submitted data */
         }
     }  
 ?>
-        </div>
       </div>
       <br />
       <br />
